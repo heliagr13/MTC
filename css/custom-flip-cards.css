@@ -1,0 +1,38 @@
+/* Custom Course Editor flip-card styling */
+.flip-card-v2-content {
+  padding: 0 !important;
+  --ce-flip-card--padding-top: 0px !important;
+  --ce-flip-card--padding-bottom: 0px !important;
+  --ce-flip-card--padding-left: 0px !important;
+  --ce-flip-card--padding-right: 0px !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.flip-card-v2-content__main,
+.flip-card-v2-content__content,
+.flip-card-v2-content__image,
+.flip-card-v2-image {
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  background: transparent !important;
+}
+
+.flip-card-v2-content__image img,
+.flip-card-v2-image img {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  margin: 0 !important;
+}
+
+/* Hide Course Editor footer: red line and flip icon. */
+.flip-card-v2-footer,
+.flip-card-v2-content__footer,
+.flip-card-v2-footer__flip {
+  display: none !important;
+}
